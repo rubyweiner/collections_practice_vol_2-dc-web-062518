@@ -42,6 +42,6 @@ end
 
 def find_cool(collection)
   if collection[1].values[1] == "cool"
-    [cool[1]]
+    [collection[1]]
   end
 end
