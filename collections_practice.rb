@@ -3,3 +3,8 @@ def begins_with_r (collection)
     element[0] == "r"
   end
 end
+
+def contain_a (collection)
+  collection.select do |element|
+    
+end
