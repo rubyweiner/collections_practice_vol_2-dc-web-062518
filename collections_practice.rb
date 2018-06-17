@@ -1,2 +1,2 @@
 def begins_with_r (collection)
-  collection.
+  collection.select do 
