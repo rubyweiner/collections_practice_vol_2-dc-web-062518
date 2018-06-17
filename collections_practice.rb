@@ -41,4 +41,7 @@ def merge_data(keys, data)
 end
 
 def find_cool(collection)
+  if collection[1].values[1] == "cool"
+    [cool[1]]
+  end
 end
