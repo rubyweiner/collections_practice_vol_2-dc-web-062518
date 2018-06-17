@@ -15,3 +15,7 @@ def first_wa (collection)
     element[0..1] == "wa"
   end
 end
+
+def remove_non_strings(collection)
+  collection.
+end
