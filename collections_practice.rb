@@ -6,6 +6,6 @@ end
 
 def contain_a (collection)
   collection.select do |element|
-    element.
+    element.include?("a")
     
 end
