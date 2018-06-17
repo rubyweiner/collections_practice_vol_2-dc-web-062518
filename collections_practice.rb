@@ -11,4 +11,5 @@ def contain_a (collection)
 end
 
 def first_wa (collection)
-  collection.find do
+  collection.find do |element|
+    element[0..1]
