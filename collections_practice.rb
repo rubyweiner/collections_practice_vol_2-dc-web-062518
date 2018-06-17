@@ -23,7 +23,12 @@ def remove_non_strings(collection)
 end
 
 def count_elements (collection)
-  collection.count do |element|
-    element > 0 
+  collection.group_by(&:itself).map do |key, value|
+    key.merge(:count => value.length)
+  end
+end
+
+array.group_by(&:itself).map do |key, value|
+     key.merge({:count => value.length})
   end
 end
