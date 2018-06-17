@@ -28,7 +28,3 @@ def count_elements (collection)
   end
 end
 
-array.group_by(&:itself).map do |key, value|
-     key.merge({:count => value.length})
-  end
-end
