@@ -21,3 +21,6 @@ def remove_non_strings(collection)
     element.class != String
   end
 end
+
+def count_elements (collection)
+end
