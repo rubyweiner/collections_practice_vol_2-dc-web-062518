@@ -9,3 +9,6 @@ def contain_a (collection)
     element.include?("a")
   end
 end
+
+def first_wa (collection)
+  
