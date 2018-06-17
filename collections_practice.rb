@@ -17,5 +17,7 @@ def first_wa (collection)
 end
 
 def remove_non_strings(collection)
-  collection.delete_if/
+  collection.delete_if do |element| 
+    element.class != String
+  end
 end
