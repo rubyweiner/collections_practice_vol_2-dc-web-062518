@@ -8,5 +8,4 @@ def contain_a (collection)
   collection.select do |element|
     element.include?("a")
   end
-    
 end
