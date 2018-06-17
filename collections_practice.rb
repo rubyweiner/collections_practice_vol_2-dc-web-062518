@@ -28,3 +28,6 @@ def count_elements (collection)
   end
 end
 
+def merge_data
+end
+
