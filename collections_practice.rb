@@ -45,3 +45,7 @@ def find_cool(collection)
     [collection[1]]
   end
 end
+
+def organize_schools(collection)
+  
+end
