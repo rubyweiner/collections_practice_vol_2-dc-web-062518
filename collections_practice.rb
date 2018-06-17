@@ -6,5 +6,6 @@ end
 
 def contain_a (collection)
   collection.select do |element|
+    element.
     
 end
