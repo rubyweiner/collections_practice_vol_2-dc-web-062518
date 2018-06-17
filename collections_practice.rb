@@ -12,4 +12,6 @@ end
 
 def first_wa (collection)
   collection.find do |element|
-    element[0..1]
+    element[0..1] == "wa"
+  end
+end
