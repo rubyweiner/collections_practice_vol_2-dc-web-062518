@@ -24,5 +24,6 @@ end
 
 def count_elements (collection)
   collection.count do |element|
-    element > 0
+    element > 0 
+  end
 end
