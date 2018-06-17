@@ -17,5 +17,5 @@ def first_wa (collection)
 end
 
 def remove_non_strings(collection)
-  collection.
+  collection.delete_if/
 end
